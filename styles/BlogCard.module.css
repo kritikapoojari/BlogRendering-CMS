@@ -1,0 +1,25 @@
+.blog-container {
+	background-color: black;
+	text-align: center;
+}
+.blog-image {
+	margin-top: 3%;
+	width: 50%;
+	height: 50%;
+}
+.heading {
+	color: white;
+	font-size: 30px;
+}
+.card-heading {
+	display: inline-block;
+}
+.blog-content {
+	color: white;
+}
+.blog {
+	color: white;
+	text-align: center;
+	width: 70%;
+	padding-left: 350px;
+}

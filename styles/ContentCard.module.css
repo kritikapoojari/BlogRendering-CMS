@@ -1,0 +1,11 @@
+.image-container {
+	margin-top: 3%;
+	width: 50%;
+	height: 50%;
+}
+.content-heading {
+	font-size: 30px;
+}
+.content {
+	display: inline-block;
+}
