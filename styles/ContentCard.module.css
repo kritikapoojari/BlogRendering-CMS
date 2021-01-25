@@ -1,12 +1,23 @@
+.card-conainer {
+	background-color: black;
+}
 .image-container {
 	margin-top: 3%;
 	width: 50%;
 	height: 50%;
+	margin-left: 350px;
 }
 .content-heading {
+	text-align: center;
+	color: white;
 	font-size: 30px;
 }
 .content {
+	text-align: center;
+	color: white;
 	display: inline-block;
 	font-size: 20px;
+}
+.card {
+	color: white;
 }

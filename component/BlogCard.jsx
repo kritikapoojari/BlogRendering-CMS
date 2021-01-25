@@ -11,10 +11,14 @@ const BlogCard = (props) => {
 							src={blog.blog_image.url}
 							className={styles["blog-image"]}
 						/>
+						<h1 className={styles["heading"]}>{blog.blog_heading}</h1>
+
 						<Link href={`/blogs/${blog.uid}`}>
-							<h1 className={styles["heading"]}>{blog.blog_heading}</h1>
+							<a>
+								<button>Click here</button>
+							</a>
 						</Link>
-						<p className={styles["blog"]}>{blog.blog_content}</p>
+						{/* <p className={styles["blog"]}>{blog.blog_content}</p> */}
 					</div>
 				);
 			})}

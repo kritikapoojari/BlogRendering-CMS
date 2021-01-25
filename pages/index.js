@@ -3,7 +3,7 @@ import BlogCard from "../component/BlogCard";
 import Footer from "../component/Footer";
 import Header from "../component/Header";
 
-const HomePage = (props) => {
+const blogs = (props) => {
 	return (
 		<div>
 			<Header />
@@ -24,4 +24,4 @@ export const getServerSideProps = async () => {
 	};
 };
 
-export default HomePage;
+export default blogs;
